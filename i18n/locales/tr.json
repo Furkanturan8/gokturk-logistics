@@ -1,0 +1,207 @@
+{
+  "seo": {
+    "title": "GÖKTÜRK LOJİSTİK — Türkiye'den Dünyaya",
+    "description": "GÖKTÜRK LOJİSTİK — Türkiye, Avrupa, Kafkasya ve Orta Asya arasında uluslararası karayolu taşımacılığı, express taşımacılık, soğuk zincir ve depolama hizmetleri."
+  },
+  "nav": {
+    "home": "ANA SAYFA",
+    "network": "AĞIMIZ",
+    "services": "HİZMETLER",
+    "fleet": "FİLO",
+    "tracking": "TAKİP",
+    "about": "HAKKIMIZDA",
+    "cta": "TEKLİF AL",
+    "menuToggle": "Menüyü aç/kapat"
+  },
+  "units": {
+    "days": "GÜN"
+  },
+  "hero": {
+    "eyebrow": "Uluslararası Karayolu Taşımacılığı",
+    "headline1": "Türkiye'den",
+    "headline2": "Dünyaya.",
+    "sub": "Türkiye'den Avrupa'ya, Kafkasya'dan Orta Asya'ya — güvenilir ve kesintisiz karayolu taşımacılığı ile sınırları aşıyoruz.",
+    "ctaPrimary": "Teklif Al",
+    "ctaSecondary": "Ağımızı Keşfet",
+    "scrollHint": "Aşağı Kaydır",
+    "stats": {
+      "countries": "Ülke Ağı",
+      "routes": "Aktif Rota",
+      "shipments": "Yıllık Sevkiyat"
+    }
+  },
+  "brand": {
+    "eyebrow": "Marka Felsefesi",
+    "headline": "Her Yolda Biz.",
+    "body": "Türkiye'den Avrupa'ya, Kafkasya'dan Orta Asya'ya uzanan güçlü bir lojistik ağı. Her sınır geçişinde, her rotada aynı disiplin ve aynı güvenle ilerliyoruz.",
+    "tagline": "Yolculuk değişti. Ruh aynı."
+  },
+  "network": {
+    "eyebrow": "Lojistik Ağımız",
+    "headline1": "Tek Ağ.",
+    "headline2": "Sınırsız Rota.",
+    "corridorWest": "Batı Koridoru",
+    "corridorEast": "Doğu Koridoru",
+    "activeRoutes": "Aktif Rotalar",
+    "weeklyShipments": "Haftalık Sevkiyat",
+    "activeRoute": "Aktif Rota",
+    "toolButton": "Rota Takip & Hesaplama Aracı"
+  },
+  "tracker": {
+    "eyebrow": "Gönderi Takip",
+    "headline1": "Yükünüzün Nerede",
+    "headline2": "Olduğunu Bilin.",
+    "inputLabel": "Gönderi numaranızı girin",
+    "submit": "Gönderiyi Takip Et",
+    "errorEmpty": "Lütfen bir gönderi numarası girin.",
+    "errorNotFound": "\"{code}\" numaralı gönderi bulunamadı. Örnek: {example}",
+    "example": "Örnek:",
+    "distanceLabel": "Mesafe (KM)",
+    "durationLabel": "Tahmini Süre",
+    "cargoLabel": "Yük",
+    "emptyState": "Takip sonuçlarını görmek için bir gönderi numarası girin veya örnek bir numara seçin."
+  },
+  "fleet": {
+    "eyebrow": "Filo",
+    "headline": "Gücü Yola Taşıyoruz.",
+    "hp": "HP",
+    "emission": "Emisyon",
+    "capacity": "Kapasite"
+  },
+  "services": {
+    "eyebrow": "Hizmetlerimiz",
+    "headline1": "Uçtan Uca",
+    "headline2": "Lojistik Çözümler."
+  },
+  "calculator": {
+    "eyebrow": "Navlun Hesaplama",
+    "headline1": "Rotanızı",
+    "headline2": "Hesaplayın.",
+    "from": "Nereden",
+    "fromValue": "Bursa (Merkez)",
+    "to": "Nereye",
+    "cargoType": "Yük Türü",
+    "weight": "Ağırlık (KG)",
+    "transportType": "Taşıma Tipi",
+    "submit": "Rotayı Hesapla",
+    "distanceLabel": "Tahmini Mesafe (KM)",
+    "durationLabel": "Tahmini Süre",
+    "co2Label": "Tahmini CO₂ (KG)",
+    "suggestedRoute": "Önerilen Rota",
+    "disclaimer": "* Demo tahmini — gerçek ticari teklif değildir.",
+    "cargoOptions": {
+      "automotive": "Otomotiv",
+      "textile": "Tekstil",
+      "industrial": "Sanayi Ekipmanı",
+      "food": "Gıda Ürünleri",
+      "general": "Genel Kargo"
+    },
+    "transportOptions": {
+      "full": "Komple Taşıma",
+      "partial": "Parsiyel Taşıma"
+    }
+  },
+  "trackingCta": {
+    "eyebrow": "Dijital Araçlar",
+    "headline1": "Takip Edin,",
+    "headline2": "Rotanızı Hesaplayın.",
+    "body": "Gönderi numaranızla anlık takip yapın veya rotanız için tahmini mesafe, süre ve CO₂ hesaplayın."
+  },
+  "ops": {
+    "eyebrow": "Operasyon Merkezi",
+    "headline1": "Lojistik,",
+    "headline2": "Hareket Halinde.",
+    "liveFleet": "Canlı Filo Takibi",
+    "live": "Canlı",
+    "stats": {
+      "active": "Aktif Sevkiyat",
+      "transit": "Transit",
+      "delivered": "Teslim Edildi",
+      "border": "Sınırda"
+    },
+    "status": {
+      "transit": "TRANSİT",
+      "sinirda": "SINIRDA",
+      "teslim": "TESLİM EDİLDİ"
+    }
+  },
+  "journey": {
+    "eyebrow": "Sevkiyat Yolculuğu",
+    "headline1": "Fabrikadan",
+    "headline2": "Hedef Noktaya.",
+    "heritageLabel": "Miras",
+    "heritageChain": [
+      "AT",
+      "YOLCULUK",
+      "YOL",
+      "TIR"
+    ],
+    "heritageHeadline1": "Yolculuk Değişti.",
+    "heritageHeadline2": "Ruh Aynı.",
+    "heritageBody": "Türk kültüründe atın simgelediği hareket, özgürlük ve dayanıklılık ruhu; bugün yollarımızı aşan gücümüzde yaşamaya devam ediyor."
+  },
+  "geo": {
+    "eyebrow": "Coğrafi Bağlantı",
+    "headline1": "Coğrafyalar Arasında",
+    "headline2": "Bir Köprü.",
+    "regionLabel": "Bölge"
+  },
+  "driver": {
+    "eyebrow": "İnsan Faktörü",
+    "headline1": "Her Sevkiyatın",
+    "headline2": "Ardında Bir",
+    "headline3": "İnsan Var.",
+    "body": "Binlerce kilometrelik yolculukların her aşamasında, direksiyonun başında deneyimli ve güvenilir sürücülerimiz var. Göktürk Lojistik'in gücü, insana verdiği değerden gelir.",
+    "connectingLine": "Yüzyıllar önce atın taşıdığı azim, bugün sürücülerimizin direksiyonundaki kararlılıkta yaşıyor.",
+    "heritageCaption": "Geçmişten Günümüze",
+    "highlights": {
+      "safety": {
+        "title": "Güvenlik",
+        "description": "Her sürücümüz düzenli eğitim ve sıkı güvenlik protokolleriyle yola çıkar."
+      },
+      "experience": {
+        "title": "Deneyim",
+        "description": "Uzun mesafe hatlarında yıllara dayanan saha tecrübesi."
+      },
+      "support": {
+        "title": "7/24 Destek",
+        "description": "Operasyon ekibimiz yolculuğun her anında sürücülerimizin yanında."
+      },
+      "planning": {
+        "title": "Rota Planlama",
+        "description": "Güvenli ve verimli güzergahlar için titiz rota planlaması."
+      }
+    }
+  },
+  "finalCta": {
+    "headline1": "Yola",
+    "headline2": "Çıkalım.",
+    "body": "Yükünüzü güvenle dünyanın dört bir yanına taşıyalım.",
+    "ctaPrimary": "Teklif Al",
+    "ctaSecondary": "İletişime Geç"
+  },
+  "footer": {
+    "tagline": "Uluslararası Taşımacılık",
+    "body": "Türkiye'den Avrupa'ya, Kafkasya'dan Orta Asya'ya — güvenilir karayolu taşımacılığı.",
+    "corporateTitle": "Kurumsal",
+    "regionsTitle": "Bölgeler",
+    "contactTitle": "İletişim",
+    "address": "Bursa, Türkiye",
+    "rights": "Tüm hakları saklıdır.",
+    "bottomTagline": "Türkiye'den Dünyaya.",
+    "corporateLinks": {
+      "network": "Ağımız",
+      "services": "Hizmetler",
+      "fleet": "Filo",
+      "tracking": "Gönderi Takip",
+      "about": "Hakkımızda"
+    },
+    "regions": {
+      "turkey": "Türkiye",
+      "europe": "Avrupa",
+      "caucasus": "Kafkasya",
+      "centralAsia": "Orta Asya"
+    }
+  },
+  "data": {}
+}

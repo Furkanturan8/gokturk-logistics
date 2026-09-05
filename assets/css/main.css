@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  scrollbar-color: #4d4f53 #0a0a0b;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0b;
+}
+::-webkit-scrollbar-thumb {
+  background: #28282c;
+  border: 2px solid #0a0a0b;
+  border-radius: 999px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @apply bg-ink-900 text-bone-200 font-sans antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  overflow-wrap: break-word;
+}
+
+::selection {
+  background: #a3241f;
+  color: #f3efe9;
+}
+
+:focus-visible {
+  outline: 2px solid #a3241f;
+  outline-offset: 3px;
+}
+
+.eyebrow {
+  @apply text-[0.7rem] font-semibold uppercase tracking-widest2 text-steel-300;
+}
+
+.section-pad {
+  @apply px-6 md:px-10 lg:px-16 xl:px-24;
+}
+
+.container-edge {
+  @apply mx-auto w-full max-w-[1600px];
+}
+
+.line-hair {
+  @apply h-px w-full bg-ink-600;
+}
+
+.split-line {
+  overflow: hidden;
+  display: block;
+}
+
+.noise-overlay {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background-image: theme('backgroundImage.grain');
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+}
+
+.btn-solid {
+  @apply inline-flex items-center justify-center gap-3 rounded-none bg-bone-200 px-8 py-4 text-xs font-semibold uppercase tracking-widest2 text-ink-900 transition-all duration-500 ease-cinematic hover:bg-rust-500 hover:text-bone-100;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-3 rounded-none border border-bone-200/30 px-8 py-4 text-xs font-semibold uppercase tracking-widest2 text-bone-100 transition-all duration-500 ease-cinematic hover:border-bone-100 hover:bg-bone-100/5;
+}
+
+.num-tabular {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,231 @@
+{
+  "seo": {
+    "title": "GÖKTÜRK LOJİSTİK — From Turkey to the World",
+    "description": "GÖKTÜRK LOJİSTİK — International road freight, express transport, cold chain and warehousing services connecting Turkey with Europe, the Caucasus and Central Asia."
+  },
+  "nav": {
+    "home": "HOME",
+    "network": "NETWORK",
+    "services": "SERVICES",
+    "fleet": "FLEET",
+    "tracking": "TRACKING",
+    "about": "ABOUT",
+    "cta": "GET A QUOTE",
+    "menuToggle": "Toggle menu"
+  },
+  "units": {
+    "days": "DAYS"
+  },
+  "hero": {
+    "eyebrow": "International Road Freight",
+    "headline1": "From Turkey",
+    "headline2": "To the World.",
+    "sub": "From Turkey to Europe, from the Caucasus to Central Asia — we cross borders with reliable, uninterrupted road freight.",
+    "ctaPrimary": "Get a Quote",
+    "ctaSecondary": "Explore Our Network",
+    "scrollHint": "Scroll Down",
+    "stats": {
+      "countries": "Country Network",
+      "routes": "Active Routes",
+      "shipments": "Annual Shipments"
+    }
+  },
+  "brand": {
+    "eyebrow": "Brand Philosophy",
+    "headline": "At Every Point of the Road.",
+    "body": "A powerful logistics network stretching from Turkey to Europe, from the Caucasus to Central Asia. We move with the same discipline and the same trust at every border, on every route.",
+    "tagline": "The journey has changed. The spirit remains."
+  },
+  "network": {
+    "eyebrow": "Our Logistics Network",
+    "headline1": "One Network.",
+    "headline2": "Unlimited Routes.",
+    "corridorWest": "Western Corridor",
+    "corridorEast": "Eastern Corridor",
+    "activeRoutes": "Active Routes",
+    "weeklyShipments": "Weekly Shipments",
+    "activeRoute": "Active Route",
+    "toolButton": "Route Tracking & Calculator Tool"
+  },
+  "tracker": {
+    "eyebrow": "Shipment Tracking",
+    "headline1": "Know Where",
+    "headline2": "Your Cargo Is.",
+    "inputLabel": "Enter your shipment number",
+    "submit": "Track Shipment",
+    "errorEmpty": "Please enter a shipment number.",
+    "errorNotFound": "No shipment found for \"{code}\". Try: {example}",
+    "example": "Example:",
+    "distanceLabel": "Distance (KM)",
+    "durationLabel": "Estimated Duration",
+    "cargoLabel": "Cargo",
+    "emptyState": "Enter a shipment number or pick an example to see tracking results."
+  },
+  "fleet": {
+    "eyebrow": "Fleet",
+    "headline": "We Carry Power on the Road.",
+    "hp": "HP",
+    "emission": "Emission",
+    "capacity": "Capacity"
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "headline1": "End-to-End",
+    "headline2": "Logistics Solutions."
+  },
+  "calculator": {
+    "eyebrow": "Freight Calculator",
+    "headline1": "Calculate",
+    "headline2": "Your Route.",
+    "from": "From",
+    "fromValue": "Bursa (HQ)",
+    "to": "To",
+    "cargoType": "Cargo Type",
+    "weight": "Weight (KG)",
+    "transportType": "Transport Type",
+    "submit": "Calculate Route",
+    "distanceLabel": "Estimated Distance (KM)",
+    "durationLabel": "Estimated Duration",
+    "co2Label": "Estimated CO₂ (KG)",
+    "suggestedRoute": "Suggested Route",
+    "disclaimer": "* Demo estimate — not a real commercial quotation.",
+    "cargoOptions": {
+      "automotive": "Automotive",
+      "textile": "Textile",
+      "industrial": "Industrial Equipment",
+      "food": "Food Products",
+      "general": "General Cargo"
+    },
+    "transportOptions": {
+      "full": "Full Truckload",
+      "partial": "Partial Truckload"
+    }
+  },
+  "trackingCta": {
+    "eyebrow": "Digital Tools",
+    "headline1": "Track It,",
+    "headline2": "Calculate Your Route.",
+    "body": "Track your shipment instantly with your tracking number, or calculate the estimated distance, duration and CO₂ for your route."
+  },
+  "ops": {
+    "eyebrow": "Operations Center",
+    "headline1": "Logistics,",
+    "headline2": "In Motion.",
+    "liveFleet": "Live Fleet Tracking",
+    "live": "Live",
+    "stats": {
+      "active": "Active Shipments",
+      "transit": "In Transit",
+      "delivered": "Delivered",
+      "border": "At Border"
+    },
+    "status": {
+      "transit": "IN TRANSIT",
+      "sinirda": "AT BORDER",
+      "teslim": "DELIVERED"
+    }
+  },
+  "journey": {
+    "eyebrow": "Shipment Journey",
+    "headline1": "From Factory",
+    "headline2": "To Destination.",
+    "heritageLabel": "Heritage",
+    "heritageChain": ["HORSE", "JOURNEY", "ROAD", "TRUCK"],
+    "heritageHeadline1": "The Journey Has Changed.",
+    "heritageHeadline2": "The Spirit Remains.",
+    "heritageBody": "The spirit of movement, freedom and endurance the horse once symbolised in Turkic culture lives on today in the strength that carries us across the road."
+  },
+  "geo": {
+    "eyebrow": "Geographic Connection",
+    "headline1": "A Bridge Between",
+    "headline2": "Geographies.",
+    "regionLabel": "Region"
+  },
+  "driver": {
+    "eyebrow": "The Human Factor",
+    "headline1": "Behind Every",
+    "headline2": "Shipment Is",
+    "headline3": "A Person.",
+    "body": "At every stage of thousand-kilometre journeys, our experienced and reliable drivers are behind the wheel. Göktürk Lojistik's strength comes from the value it places in people.",
+    "connectingLine": "The resolve the horse once carried for centuries lives on today in the determination behind our drivers' wheels.",
+    "heritageCaption": "From Past to Present",
+    "highlights": {
+      "safety": { "title": "Safety", "description": "Every driver of ours sets out with regular training and strict safety protocols." },
+      "experience": { "title": "Experience", "description": "Years of field experience on long-distance routes." },
+      "support": { "title": "24/7 Support", "description": "Our operations team is with our drivers at every moment of the journey." },
+      "planning": { "title": "Route Planning", "description": "Meticulous route planning for safe and efficient itineraries." }
+    }
+  },
+  "finalCta": {
+    "headline1": "Let's Hit",
+    "headline2": "The Road.",
+    "body": "Let us carry your cargo safely to every corner of the world.",
+    "ctaPrimary": "Get a Quote",
+    "ctaSecondary": "Get in Touch"
+  },
+  "footer": {
+    "tagline": "International Transportation",
+    "body": "From Turkey to Europe, from the Caucasus to Central Asia — reliable road freight.",
+    "corporateTitle": "Corporate",
+    "regionsTitle": "Regions",
+    "contactTitle": "Contact",
+    "address": "Bursa, Turkey",
+    "rights": "All rights reserved.",
+    "bottomTagline": "From Turkey to the World.",
+    "corporateLinks": {
+      "network": "Network",
+      "services": "Services",
+      "fleet": "Fleet",
+      "tracking": "Shipment Tracking",
+      "about": "About Us"
+    },
+    "regions": {
+      "turkey": "Turkey",
+      "europe": "Europe",
+      "caucasus": "Caucasus",
+      "centralAsia": "Central Asia"
+    }
+  },
+  "data": {
+    "services": {
+      "karayolu": { "title": "Road Freight", "description": "Full truckload and partial freight transportation between Turkey and Europe." },
+      "express": { "title": "Express Transport", "description": "Fast and reliable solutions for time-critical shipments." },
+      "soguk-zincir": { "title": "Cold Chain", "description": "Temperature-controlled transport solutions." },
+      "depolama": { "title": "Warehousing", "description": "Secure warehousing and distribution at strategic locations." },
+      "otomotiv": { "title": "Automotive Logistics", "description": "Tailored transport solutions for automotive and industrial supply chains." }
+    },
+    "fleet": {
+      "volvo-fh": { "tagline": "The quiet power of long distance.", "description": "The backbone of our tractor fleet, built for maximum fuel efficiency and driver comfort on European routes." },
+      "mercedes-actros": { "tagline": "Performance engineered with precision.", "description": "Equipped with superior power delivery and advanced safety systems for automotive and industrial cargo." },
+      "scania-r": { "tagline": "The resilient companion of the eastern corridor.", "description": "Optimised durability for uninterrupted operation across demanding terrain and long border crossings." }
+    },
+    "journey": {
+      "fabrika": { "title": "FACTORY", "description": "The cargo is prepared at the production facility and added to the shipment plan.", "statLabel": "Preparation Time", "statValue": "4 HOURS" },
+      "depo": { "title": "WAREHOUSE", "description": "Moved to a strategic warehouse point for consolidation and inspection.", "statLabel": "Warehouse Time", "statValue": "1 DAY" },
+      "tir": { "title": "TRUCK", "description": "Loaded onto the fleet vehicle as the long-distance journey begins.", "statLabel": "Departure Speed", "statValue": "90 KM/H" },
+      "sinir": { "title": "BORDER CROSSING", "description": "Customs procedures are coordinated by our operations team.", "statLabel": "Average Wait", "statValue": "3 HOURS" },
+      "dagitim": { "title": "DISTRIBUTION CENTER", "description": "Arrives at the distribution center in the destination country and final delivery is planned.", "statLabel": "Transfer Time", "statValue": "6 HOURS" },
+      "varis": { "title": "ARRIVAL", "description": "The cargo is delivered safely and on time to its recipient.", "statLabel": "Delivery Accuracy", "statValue": "99.2%" }
+    },
+    "geography": {
+      "avrupa": { "label": "EUROPE" },
+      "balkanlar": { "label": "BALKANS" },
+      "turkiye": { "label": "TURKEY" },
+      "kafkasya": { "label": "CAUCASUS" },
+      "orta-asya": { "label": "CENTRAL ASIA" }
+    },
+    "shipments": {
+      "GKT-284921": { "cargoType": "Automotive Parts", "duration": "2-3 days" },
+      "GKT-119843": { "cargoType": "Textile Products", "duration": "4-5 days" },
+      "GKT-552017": { "cargoType": "Industrial Equipment", "duration": "3-4 days" }
+    },
+    "stopStatus": {
+      "Yüklendi": "Loaded",
+      "Çıkış Yaptı": "Departed",
+      "Transit": "In Transit",
+      "Bekleniyor": "Pending",
+      "Varış": "Arrival",
+      "Sınır Kapısı": "Border Crossing"
+    }
+  }
+}
