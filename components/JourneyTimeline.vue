@@ -29,8 +29,8 @@ onMounted(() => {
       scrollTrigger: {
         trigger: heritageEl.value,
         start: 'top 70%',
-        end: 'bottom 55%',
-        scrub: 0.6,
+        end: 'bottom top',
+        scrub: 1.2,
       },
     })
     gsap.fromTo(

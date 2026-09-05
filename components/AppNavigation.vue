@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t, locale, setLocale } = useI18n()
+const route = useRoute()
 
 const isScrolled = ref(false)
 const isMenuOpen = ref(false)
@@ -9,8 +10,8 @@ const navLinks = computed(() => [
   { label: t('nav.network'), href: '#ag' },
   { label: t('nav.services'), href: '#hizmetler' },
   { label: t('nav.fleet'), href: '#filo' },
-  { label: t('nav.tracking'), href: '/takip-hesaplama' },
   { label: t('nav.about'), href: '#insan' },
+  { label: t('nav.tracking'), href: '/takip-hesaplama' },
 ])
 
 function displayHref(href: string) {
@@ -33,6 +34,10 @@ function goTo(href: string) {
   closeMenu()
   if (href.startsWith('/')) {
     navigateTo(href)
+    return
+  }
+  if (route.path !== '/') {
+    navigateTo(`/${href}`)
     return
   }
   const el = document.querySelector(href)

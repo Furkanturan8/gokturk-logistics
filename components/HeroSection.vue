@@ -44,7 +44,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section id="hero" ref="rootEl" class="relative flex h-[100svh] min-h-[640px] w-full items-end overflow-hidden bg-ink-900">
+  <section id="hero" ref="rootEl" class="relative flex h-[100svh] min-h-[640px] w-full items-start overflow-hidden bg-ink-900 md:items-end">
     <video
       ref="videoEl"
       class="absolute inset-0 h-full w-full object-cover"
@@ -67,15 +67,15 @@ onMounted(() => {
       <line class="route-grid-line" x1="480" y1="0" x2="80" y2="800" stroke="#f3efe9" stroke-width="1" stroke-dasharray="6 10" />
     </svg>
 
-    <div class="relative z-10 w-full section-pad container-edge pb-16 pt-32 md:pb-20">
+    <div class="relative z-10 w-full section-pad container-edge pb-10 pt-32 md:pb-20">
       <p class="hero-eyebrow eyebrow mb-6 opacity-0">{{ t('hero.eyebrow') }}</p>
 
-      <h1 :key="locale" ref="headlineEl" class="font-display text-display-1 font-extrabold uppercase text-bone-100">
+      <h1 :key="locale" ref="headlineEl" class="font-display text-[2.25rem] font-extrabold uppercase leading-[0.92] tracking-[-0.02em] text-bone-100 sm:text-display-1">
         <span class="split-line">{{ t('hero.headline1') }}</span>
         <span class="split-line text-rust-500">{{ t('hero.headline2') }}</span>
       </h1>
 
-      <div class="mt-8 flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
+      <div class="mt-6 flex flex-col gap-6 md:mt-8 md:flex-row md:items-end md:justify-between md:gap-10">
         <p class="hero-sub max-w-md text-sm leading-relaxed text-bone-300 opacity-0 md:text-base">
           {{ t('hero.sub') }}
         </p>
@@ -86,7 +86,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="mt-14 grid grid-cols-3 gap-6 border-t border-white/10 pt-6 md:max-w-xl">
+      <div class="mt-8 grid grid-cols-3 gap-6 border-t border-white/10 pt-6 md:mt-14 md:max-w-xl">
         <div v-for="stat in heroStatistics" :key="stat.key" class="hero-stat opacity-0">
           <p class="font-display text-2xl font-bold text-bone-100 num-tabular md:text-3xl">{{ stat.value.toLocaleString('tr-TR') }}{{ stat.suffix }}</p>
           <p class="mt-1 text-[0.62rem] uppercase tracking-widest2 text-steel-300">{{ t(`hero.stats.${stat.key}`) }}</p>

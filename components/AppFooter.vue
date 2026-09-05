@@ -1,13 +1,14 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const route = useRoute()
 const year = new Date().getFullYear()
 
 const corporateLinks = computed(() => [
   { label: t('footer.corporateLinks.network'), href: '#ag' },
   { label: t('footer.corporateLinks.services'), href: '#hizmetler' },
   { label: t('footer.corporateLinks.fleet'), href: '#filo' },
-  { label: t('footer.corporateLinks.tracking'), href: '/takip-hesaplama' },
   { label: t('footer.corporateLinks.about'), href: '#insan' },
+  { label: t('footer.corporateLinks.tracking'), href: '/takip-hesaplama' },
 ])
 
 const regionLinks = computed(() => [
@@ -25,6 +26,10 @@ const linkColumns = computed(() => [
 function goTo(href: string) {
   if (href.startsWith('/')) {
     navigateTo(href)
+    return
+  }
+  if (route.path !== '/') {
+    navigateTo(`/${href}`)
     return
   }
   document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
