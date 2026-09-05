@@ -54,13 +54,13 @@ onMounted(() => {
       </div>
 
       <div class="driver-fade relative mt-20 aspect-[16/9] w-full overflow-hidden md:mt-14 md:aspect-[21/9]">
-        <video class="h-full w-full object-cover" autoplay muted loop playsinline poster="/media/images/truck-vertical-sunset.jpeg">
-          <source src="/media/video/truck-and-girl-2.mp4" type="video/mp4">
+        <video class="h-full w-full object-cover" autoplay muted loop playsinline :poster="useBaseUrl('/media/images/truck-vertical-sunset.jpeg')">
+          <source :src="useBaseUrl('/media/video/truck-and-girl-2.mp4')" type="video/mp4">
         </video>
         <div class="absolute inset-0 bg-gradient-to-t from-ink-900/70 via-transparent to-transparent" />
 
         <div class="driver-heritage absolute -top-8 right-4 w-24 -rotate-3 border-4 border-ink-900 shadow-xl sm:right-6 sm:w-32 md:-top-12 md:right-10 md:w-44">
-          <img src="/media/images/horse-rider-steppe.jpeg" alt="Bozkırda at üzerinde bir binici" class="aspect-[3/4] w-full object-cover grayscale">
+          <img :src="useBaseUrl('/media/images/horse-rider-steppe.jpeg')" alt="Bozkırda at üzerinde bir binici" class="aspect-[3/4] w-full object-cover grayscale">
           <p class="bg-ink-900 py-1.5 text-center text-[0.55rem] font-semibold uppercase tracking-widest2 text-rust-400">{{ t('driver.heritageCaption') }}</p>
         </div>
       </div>

@@ -52,9 +52,9 @@ onMounted(() => {
       muted
       loop
       playsinline
-      poster="/media/images/hero-highway-sunset.jpeg"
+      :poster="useBaseUrl('/media/images/hero-highway-sunset.jpeg')"
     >
-      <source src="/media/video/nature-with-truck.mp4" type="video/mp4">
+      <source :src="useBaseUrl('/media/video/nature-with-truck.mp4')" type="video/mp4">
     </video>
 
     <div class="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/55 to-ink-900/20" />

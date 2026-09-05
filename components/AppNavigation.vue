@@ -13,6 +13,10 @@ const navLinks = computed(() => [
   { label: t('nav.about'), href: '#insan' },
 ])
 
+function displayHref(href: string) {
+  return href.startsWith('/') ? useBaseUrl(href) : href
+}
+
 function toggleLocale() {
   setLocale(locale.value === 'tr' ? 'en' : 'tr')
 }
@@ -63,7 +67,7 @@ watch(isMenuOpen, (open) => {
       <ul class="hidden items-center gap-9 lg:flex">
         <li v-for="link in navLinks" :key="link.href">
           <a
-            :href="link.href"
+            :href="displayHref(link.href)"
             class="text-[0.7rem] font-semibold uppercase tracking-widest2 text-bone-300 transition-colors duration-300 hover:text-rust-400"
             @click.prevent="goTo(link.href)"
           >{{ link.label }}</a>
@@ -108,7 +112,7 @@ watch(isMenuOpen, (open) => {
         <ul class="section-pad flex flex-1 flex-col justify-start gap-2 overflow-y-auto pt-10">
           <li v-for="(link, i) in navLinks" :key="link.href">
             <a
-              :href="link.href"
+              :href="displayHref(link.href)"
               class="block border-b border-white/5 py-4 font-display text-3xl font-bold text-bone-100 transition-colors duration-300 hover:text-rust-400"
               :style="{ transitionDelay: `${i * 40}ms` }"
               @click.prevent="goTo(link.href)"

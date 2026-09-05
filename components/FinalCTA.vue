@@ -37,7 +37,7 @@ onMounted(() => {
 <template>
   <section id="teklif" ref="sectionEl" class="relative flex h-[92svh] min-h-[560px] w-full items-center overflow-hidden bg-ink-900">
     <div ref="bgEl" class="absolute inset-0 h-full w-full">
-      <img src="/media/images/hero-highway-sunset.jpeg" alt="" class="h-full w-full object-cover">
+      <img :src="useBaseUrl('/media/images/hero-highway-sunset.jpeg')" alt="" class="h-full w-full object-cover">
     </div>
     <div class="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/60 to-ink-900/40" />
     <div class="noise-overlay" />

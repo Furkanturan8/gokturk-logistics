@@ -29,6 +29,10 @@ function goTo(href: string) {
   }
   document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
 }
+
+function displayHref(href: string) {
+  return href.startsWith('/') ? useBaseUrl(href) : href
+}
 </script>
 
 <template>
@@ -49,7 +53,7 @@ function goTo(href: string) {
           <ul class="mt-5 space-y-3">
             <li v-for="link in column.links" :key="link.label">
               <a
-                :href="link.href"
+                :href="displayHref(link.href)"
                 class="text-sm text-bone-300 transition-colors duration-300 hover:text-rust-400"
                 @click.prevent="goTo(link.href)"
               >{{ link.label }}</a>

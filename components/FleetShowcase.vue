@@ -36,7 +36,7 @@ onMounted(() => {
       <img
         v-for="(vehicle, i) in fleet"
         :key="vehicle.id"
-        :src="vehicle.image"
+        :src="useBaseUrl(vehicle.image)"
         :alt="`${vehicle.brand} ${vehicle.model}`"
         class="absolute inset-0 h-full w-full object-cover transition-all duration-[1400ms] ease-cinematic"
         :class="i === activeIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-[1.06]'"

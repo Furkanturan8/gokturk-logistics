@@ -108,10 +108,10 @@ onMounted(() => {
 
       <!-- Brand heritage motif: horse → truck -->
       <div ref="heritageEl" class="relative mb-20 aspect-[3/4] w-full overflow-hidden sm:aspect-[16/9] md:aspect-[21/9]">
-        <img src="/media/images/horse-galloping.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover grayscale" />
+        <img :src="useBaseUrl('/media/images/horse-galloping.jpeg')" alt="" class="absolute inset-0 h-full w-full object-cover grayscale" />
         <div class="absolute inset-0 bg-rust-600/20" />
         <div ref="heritageWipeEl" class="absolute inset-0">
-          <img src="/media/images/hero-highway-sunset.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover" />
+          <img :src="useBaseUrl('/media/images/hero-highway-sunset.jpeg')" alt="" class="absolute inset-0 h-full w-full object-cover" />
           <div class="absolute inset-0 bg-gradient-to-r from-ink-900/40 to-transparent" />
         </div>
 
@@ -173,7 +173,7 @@ onMounted(() => {
           :key="stage.id"
           class="relative h-full w-screen shrink-0 overflow-hidden"
         >
-          <img :src="stage.image" :alt="dl(`data.journey.${stage.id}.title`, stage.title)" class="absolute inset-0 h-full w-full object-cover">
+          <img :src="useBaseUrl(stage.image)" :alt="dl(`data.journey.${stage.id}.title`, stage.title)" class="absolute inset-0 h-full w-full object-cover">
           <div class="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/50 to-ink-900/20" />
 
           <div class="section-pad container-edge absolute inset-x-0 bottom-16 md:bottom-20">

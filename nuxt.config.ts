@@ -30,11 +30,15 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
     head: {
       title: 'GÖKTÜRK LOJİSTİK — Türkiye\'den Dünyaya',
       meta: [
         { name: 'description', content: 'GÖKTÜRK LOJİSTİK — Türkiye, Avrupa, Kafkasya ve Orta Asya arasında uluslararası karayolu taşımacılığı, express taşımacılık, soğuk zincir ve depolama hizmetleri.' },
         { name: 'theme-color', content: '#0b0b0c' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: `${(process.env.NUXT_APP_BASE_URL || '/').replace(/\/$/, '')}/favicon.ico` },
       ],
     },
   },
